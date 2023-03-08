@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al | tee /dev/tty | (cd ..; ls -al | tee /dev/tty) | (cd /boot; ls -al)
+echo "Files in current directory:" && ls -al && cd .. && echo "Files in parent directory:" && ls -al && cd /boot && echo "Files in /boot directory:" && ls -al
