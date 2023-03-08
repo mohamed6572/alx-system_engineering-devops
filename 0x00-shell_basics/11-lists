@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la ./ & ls -la ../ & ls -la /boot | sed '1d'
+echo '.:' & ls -la ./ & echo '..:' & ls -la ../ & echo '/boot:' & ls -la /boot
