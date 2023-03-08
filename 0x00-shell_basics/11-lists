@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al  cd ..  ls -al  cd /boot  ls -al
+ls -al | tee /dev/tty | (cd ..; ls -al | tee /dev/tty) | (cd /boot; ls -al)
