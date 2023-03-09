@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l /tmp/h/_hello
+sudo chown -h vincent:staff /tmp/h/_hello
