@@ -1,2 +1,2 @@
 #!/bin/bahs
-file -C -m school.mgc
+file -C -m school.mgc & file -m school /path/to/your/file
