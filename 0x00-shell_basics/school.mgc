@@ -1,0 +1,2 @@
+#!/bin/bahs
+file -C -m school.mgc
