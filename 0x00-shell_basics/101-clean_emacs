@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -f *~
+ls -1 | grep -v '~$' | wc -l
