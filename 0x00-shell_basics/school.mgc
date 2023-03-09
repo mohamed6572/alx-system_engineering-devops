@@ -1,2 +1,2 @@
-#!/bin/bahs
-file -C -m school.mgc & file -m school /path/to/your/file
+0 string SCHOOL school data
+!:mime school
