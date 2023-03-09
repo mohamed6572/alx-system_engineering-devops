@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -aF | awk '{printf "%s, ", $0} END {print ""}' | sed 's/,[[:space:]]$/\n/'
